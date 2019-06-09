@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Shopping cart</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Droid+Sans" />
+<link href="css/style.css" rel="stylesheet" media="all" />
+</head>
+<body>
+<header>
+    <a href="javascript:void(0)" class="logo"></a>
+</header>
+<section>
+    <div class="container">
+        <!-- Added for w3c & accessibity checker-->
+        <h1 class="mrgBtm10">Your Basket</h1>
+        <h2 class="fntNormal">Items you have added to your basket are shown below.<br/>Adjust the quantities or remove items before continuing your purchase.</h2>
+        
+        <form method="post" name="myform" onsubmit="submitData()">
+            <table class="show-cart table tblcls" id="show-cart">
+        
+            </table>
+        </form>
+    </div>
+</section>
+<footer>©2019 REVONIC Ltd. Registered in DUBAI</footer>
+
+<script src="js/custom.js"></script>
+</body>
+
+</html>
