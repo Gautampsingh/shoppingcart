@@ -1,0 +1,158 @@
+*, html, body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Droid Sans';
+    font-size: 12px;
+}
+body{
+    background: #efefef;
+}
+
+h1 { font-family: "Droid Sans"; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } 
+h3 { font-family: "Droid Sans"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } 
+p { font-family: "Droid Sans"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } 
+blockquote { font-family: "Droid Sans"; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } 
+pre { font-family: "Droid Sans"; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; }
+h5{
+    font-weight: normal;
+}
+
+.flt{
+    float: left;
+}
+
+.flr{
+    float: right;
+}
+.clear{
+    clear:both;
+}
+header{
+    background-color: #000000;
+    padding: 20px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left:0;
+    width: 100%;
+    background-color: #666666;
+    color: #FEFEFE;
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 15px;
+}
+
+.logo{
+    background: #efefef url(../../images/logo1.png);
+    width: 205px;
+    height: 52px;
+    display: inline-flex;
+}
+
+.container{
+    width: 60%;
+    margin: 5% auto;
+}
+
+.mrgBtm10{
+    margin-bottom: 10px;
+}
+
+.tblcls{
+    margin: 20px 0px;
+    border-collapse: collapse;
+    width: 100%;
+}
+.tblcls th, .tblcls td{
+    padding: 10px;
+    font-size: 15px;
+    vertical-align: top;
+}
+
+.tblcls td span{
+    font-size: 15px;
+}
+
+.tblcls th{
+    text-align: left;
+    border-bottom: 1px solid #666666;
+    padding-bottom: 0px;
+}
+
+.nopad td{
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.fntbld{
+    font-weight: bold;
+}
+
+.fntNormal{
+    font-weight: normal;
+}
+
+input.quantity-amount {
+    border: 1px solid #c7c5c5;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    padding: 5px;
+    text-align: right;
+}
+.plusminus{
+    background: url(../images//plus-minus.png);
+    width: 16px;
+    height: 30px;
+    margin-left: 3px;
+    margin-top: 1px;
+}
+
+span.decrease {
+    background: none;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    left: -11px;
+    top: 15px;
+}
+
+span.increase {
+    background: none;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    left: 4px;
+    top: -2px;
+}
+
+.deleteIcon{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    cursor: pointer;
+}
+
+.btnBuyNow{
+    background: url(../images/button.png);
+    width: 170px;
+    height: 56px;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+@media screen and (min-width:480px){
+    footer{
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-width:900px){
+    
+}
